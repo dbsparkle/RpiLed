@@ -11,7 +11,7 @@ while True:
     #GPIO.output(12, True)
     GPIO.output(11, True)
     print("LED ON")
-    time.sleep(5)
+    time.sleep(2)
     #GPIO.output(12, False)
     GPIO.output(11, False)
     print("LED OFF")
