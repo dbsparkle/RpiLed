@@ -3,7 +3,7 @@
   "version": "",
   "description": "python - raspberry-pi",
   "main": "app.py",
-  "author": "",
+  "author": "domi",
   "license": "",
   "language":"python",
   "scripts": {
