@@ -1,18 +1,6 @@
-#!/usr/bin/env python
-import RPi.GPIO as GPIO
 import time
+import datetime
 
-print("APP Started")
-GPIO.setmode(GPIO.BOARD)
-GPIO.setwarnings(False)
-GPIO.setup(12, GPIO.OUT)
-GPIO.setup(11, GPIO.OUT)
 while True:
-    #GPIO.output(12, True)
-    GPIO.output(11, True)
-    print("LED ON!")
-    time.sleep(2)
-    #GPIO.output(12, False)
-    GPIO.output(11, False)
-    print("LED OFF")
-    time.sleep(10)
+    print("Hello IoT from isaax" + str(datetime.datetime.today()) )
+    time.sleep(15)
